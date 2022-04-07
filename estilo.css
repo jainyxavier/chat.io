@@ -215,3 +215,79 @@ header .menu-superior .btn-pricing button{
     color: white;
     text-align: center;
 }
+
+@media (max-width: 992px){
+    .section-empresas .box-empresas .img-empresas, .section-empresas .box-empresas .line-section-empresas{
+        display: none;
+    }
+
+    .section-empresas .box-empresas .content-empresas{
+        margin: 0 auto;
+        text-align: center;
+        width: calc(100% - 30px);
+    }
+
+    .section-empresas .box-empresas .content-empresas .box-btns{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+    header .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .section-chat{
+        padding: 70px 0 100px;
+    }
+
+    .section-chat .container{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .section-chat .content-chat{
+        text-align: center;
+    }
+
+    .section-chat .content-chat p{
+        margin: 8px 0 40px;
+    }
+
+}
+
+@media (max-width: 560px) {
+    header .menu-superior{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    header .menu-superior .line{
+        width: 50px;
+        height: unset;
+    }
+
+    .section-empresas .box-empresas{
+        margin: 80px 0;
+    }
+
+    .section-empresas .box-empresas .content-empresas h3{
+        font-size: 2rem;
+    }
+
+    .section-chat .content-chat .box-btns{
+        flex-direction: column;
+    }
+
+    .footer-chat-io .container-footer{
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .footer-chat-io .container-footer div:nth-child(3){
+        display: none;
+    }
+}
