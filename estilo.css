@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #3574C4;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: calc(100% - 40px);
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+header .menu-superior{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+header .menu-superior ul{
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+header .menu-superior a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+
+header .menu-superior .line{
+    border: 1px solid white;
+    height: 37px;
+}
+
+header .menu-superior .btn-pricing button{
+    width: 160px;
+    height: 40px;
+    background-color: #5389CD;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.25);
+}
+
+.section-chat{
+    background-color: #3574C4;
+    padding: 138px 0 145px;
+}
+
+.section-chat .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-chat .content-chat h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.section-chat .content-chat p{
+    margin: 8px 0 80px;
+    font-size: 1.125rem;
+    color: white;
+}
+
+.section-chat .content-chat .box-btns{
+    display: flex;
+    gap: 24px;
+}
+
+.section-chat .content-chat .box-btns button{
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color: white;
+    color: #3574C4;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.section-chat .content-chat .box-btns #btn-demo{
+    border: 2px solid white;
+    background-color: #3574C4;
+    color: white;
+}
+
+.section-instant-chats .box-chat{
+    width: 100%;
+    max-width: 948px;
+    padding: 64px 0 63px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-instant-chats .box-chat h3{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.section-instant-chats .box-chat p{
+    font-size: 1.125rem;
+    margin: 64px 0 32px;
+    line-height: 2rem;
+}
+
+.section-empresas .box-empresas{
+    display: flex;
+    align-items: center;
+    margin: 143px 0;
+}
+
+.section-empresas .box-empresas .img-empresas img{
+    width: 100%;
+    max-width: 663px;
+}
+
+.section-empresas .box-empresas .line-section-empresas{
+    border: 1px solid black;
+    height: 358px;
+    margin: 0 57px;
+}
+
+.section-empresas .box-empresas .content-empresas h3{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.section-empresas .box-empresas .content-empresas p{
+    font-size: 1.125rem;
+    margin: 55px 0 71px;
+}
+
+.section-empresas .box-empresas .content-empresas .box-btns{
+    display: flex;
+    gap: 24px;
+}
+
+.section-empresas .box-empresas .content-empresas .box-btns button{
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color: white;
+    color: #3574C4;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.section-empresas .box-empresas .content-empresas .box-btns #btn-free{
+    border: 2px solid white;
+    background-color: #3574C4;
+    color: white;
+}
+
+.section-empresas .box-empresas .content-empresas .box-btns #btn-demo2{
+    border: 2px solid #3574C4;
+    color: #3574C4;
+}
+
+.footer-chat-io{
+    background-color: #3574C4;
+}
+
+.footer-chat-io .container-footer{
+    padding: 64px 0;
+    width: calc(100% - 40px);
+    max-width: 944px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-chat-io .container-footer .column-footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.footer-chat-io .container-footer .column-footer a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.footer-chat-io .chat-io-global{
+    padding-bottom: 14px;
+}
+
+.footer-chat-io .chat-io-global p{
+    font-size: 0.75rem;
+    color: white;
+    text-align: center;
+}
